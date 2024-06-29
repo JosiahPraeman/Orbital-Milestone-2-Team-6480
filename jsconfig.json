@@ -1,0 +1,28 @@
+{
+    "extends": "./node_modules/expo/jsconfig.base.json",
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": [
+          "./*"
+        ]
+      },
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "jsx": "react-native",
+      "module": "esnext",
+      "target": "ESNext",
+      "moduleResolution": "node",
+      "skipLibCheck": true
+    },
+    "exclude": [
+      "node_modules",
+      "babel.config.js",
+      "metro.config.js",
+      "jest.config.js"
+    ],
+    "include": [
+      "**/*.js"
+    ]
+  }
+  

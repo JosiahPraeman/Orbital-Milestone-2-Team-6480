@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Cycling2",
+    "slug": "Cycling2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.cycling2",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBK_cbYFZQP9XFgB_wY4MMjEIyRo3Ok8Yo"
+      },
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to show the best cycling routes.",
+        "NSLocationAlwaysUsageDescription": "This app may use your location even when it isn’t open, which can decrease device battery life."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourcompany.cycling2",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBK_cbYFZQP9XFgB_wY4MMjEIyRo3Ok8Yo"
+        }
+      },
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"],
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
