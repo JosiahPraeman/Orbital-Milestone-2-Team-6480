@@ -29,8 +29,8 @@ const HomeScreen = () => {
         style={styles.button}
       />
       <Button
-        title="Map Screen"
-        onPress={() => navigation.navigate('MapScreen')}
+        title="Eatery Search Engine"
+        onPress={() => navigation.navigate('EaterySearchEngine')}
         color="#007bff"
         style={styles.button}
       />
