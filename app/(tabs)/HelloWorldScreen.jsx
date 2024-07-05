@@ -5,7 +5,7 @@ import * as Location from 'expo-location';
 import { useNavigation } from '@react-navigation/native';
 import axios from 'axios';
 
-const GOOGLE_API_KEY = 'AIzaSyBzDpQPKlgGgUJ_iSosyDa-OqUZa3eyIEw'; // Use your Google Maps API key
+const GOOGLE_API_KEY = 'USE OWN API KEY'; // Use your Google Maps API key
 
 const HelloWorldScreen = () => {
   const [location, setLocation] = useState(null);
