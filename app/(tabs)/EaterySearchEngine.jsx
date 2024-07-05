@@ -8,7 +8,7 @@ import { useNavigation } from '@react-navigation/native';
 
 const screenWidth = Dimensions.get('window').width;
 const screenHeight = Dimensions.get('window').height;
-const apiKey = 'AIzaSyBzDpQPKlgGgUJ_iSosyDa-OqUZa3eyIEw'; // Replace with your actual Google Maps API key
+const apiKey = 'USE OWN API KEY'; // Replace with your actual Google Maps API key
 
 const EaterySearchEngine = () => {
   const [startLocation, setStartLocation] = useState(null);
