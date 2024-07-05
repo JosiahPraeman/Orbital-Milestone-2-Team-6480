@@ -8,7 +8,7 @@ import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplet
 import { useNavigation } from '@react-navigation/native';
 import polyline from '@mapbox/polyline';
 
-const GOOGLE_API_KEY = 'AIzaSyBzDpQPKlgGgUJ_iSosyDa-OqUZa3eyIEw';
+const GOOGLE_API_KEY = 'USE OWN API KEY';
 const screenWidth = Dimensions.get('window').width;
 
 const pcnAccessPoints = [
