@@ -16,7 +16,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.yourcompany.cycling2",
       "config": {
-        "googleMapsApiKey": "AIzaSyBK_cbYFZQP9XFgB_wY4MMjEIyRo3Ok8Yo"
+        "googleMapsApiKey": "USE OWN API KEY"
       },
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "This app uses your location to show the best cycling routes.",
@@ -31,7 +31,7 @@
       "package": "com.yourcompany.cycling2",
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyBK_cbYFZQP9XFgB_wY4MMjEIyRo3Ok8Yo"
+          "apiKey": "USE OWN API KEY"
         }
       },
       "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"],
